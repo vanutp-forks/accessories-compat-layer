@@ -6,7 +6,7 @@ import net.fabricmc.loom.task.RemapSourcesJarTask
 
 plugins {
     id("multiloader-base")
-    id("multiloader-publishing")
+//    id("multiloader-publishing")
 }
 
 val mojmapJar = tasks.register<RemapJarTask>("mojmapJar") {

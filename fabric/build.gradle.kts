@@ -4,7 +4,7 @@ import io.wispforest.helpers.Extensions.modrinthImplementation
 
 plugins {
     id("multiloader-base")
-    id("multiloader-publishing")
+//    id("multiloader-publishing")
     id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 

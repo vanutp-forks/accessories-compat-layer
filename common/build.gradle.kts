@@ -56,7 +56,9 @@ dependencies {
     fabricModule(this::modCompileOnlyApi, "fabric-api-base")
     // --
 
-    modCompileOnly(libs.accessories.neoforge)
+    modCompileOnly(libs.accessories.neoforge) {
+        exclude(group = "io.wispforest", module = "owo-lib-neoforge")
+    }
 
     modCompileOnly(libs.trinkets)
     fabricModule(this::modCompileOnly, "fabric-resource-loader-v0", "fabric-events-interaction-v0")

@@ -51,15 +51,15 @@ endec_netty   = "0.1.4"
 endec_gson    = "0.1.5.1"
 endec_jankson = "0.1.5.1"
 
-owo_fabric   = "0.12.15.4+1.21"
-owo_neoforge = "0.12.15.1-beta.6+1.21"
+owo_fabric   = "0.13.0-alpha.15+1.21"
+owo_neoforge = "0.13.0-alpha.15+1.21"
 
 owo_fabric_range   = ">=0.12.15.4+1.21"
 owo_neoforge_range = "[0.12.15.1-beta.6+1.21,)"
 
 jankson = "1.2.2"
 
-# Item Viewer Info 
+# Item Viewer Info
 rei      = "16.0.799"
 
 emi = "1.1.18+1.21.1"
@@ -112,7 +112,7 @@ trinkets = { module = "dev.emi:trinkets", version.ref = "trinkets" }
 
 # Neoforge
 
-owolib_neo = { module = "io.wispforest:owo-lib-neoforge", version.ref = "owo_neoforge" }
+owolib_neo = { module = "io.wispforest:owo-lib", version.ref = "owo_neoforge" }
 
 neoforge = { module = "net.neoforged:neoforge", version.ref = "neoforge" }
 

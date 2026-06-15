@@ -83,7 +83,9 @@ dependencies {
 
     modImplementation(libs.curios)
 
-    modImplementation(libs.accessories.neoforge)
+    modImplementation(libs.accessories.neoforge) {
+        exclude(group = "io.wispforest", module = "owo-lib-neoforge")
+    }
 
     annotationProcessor(libs.mixin.squared.neoforge)
     implementation(libs.mixin.squared.neoforge)
